@@ -1,12 +1,9 @@
 # KucingKU-Bangkit-Machine-Learning-Team
 # This contains what Machine Learning's team do
-## Project Status
-This project is a sub-repository for the Machine Learning team and is currently in the intergrating to app stage
 
-## Description
-**KucingKu Machine Learning** is a part of the main "KucingKu" project, 
-
-### Development Process
+#### Google Colab 
+- Data Cleaning : https://colab.research.google.com/drive/1strPHDpew4aKYSxD2Jz88Z3fKxLrB4ol
+- Model  : https://colab.research.google.com/drive/1Hw5MXQTNq6ngmg3CuaF1X7gH_koqNNlX#scrollTo=yT8xiN8UFoIl
 
 #### 1. Data Gathering
 - [x] Identify data sources for model training.
