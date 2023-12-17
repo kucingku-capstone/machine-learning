@@ -1,35 +1,36 @@
 from flask import Flask, request, jsonify
 import numpy as np
+import pandas as pd
 import tensorflow as tf
+
+# Correct the model loading path
+model = tf.keras.models.load_model("E:\machine-learning\model\model elo\CF_model_kucingku.h5")
+
+encoders = np.load('E:\machine-learning\model\model elo\cat_encoder.npy', allow_pickle=True).item()
 
 app = Flask(__name__)
 
+@app.route('/recommend', methods=['POST'])
+def recommend():
+    # Get user input
+    user_id = int(request.json['user_id'])
 
-model = tf.keras.models.load_model('E:\machine-learning\model\model elo\CF_model_kucingku.h5')
+    num_cats = len(encoders['cat_encoder'].classes_)
+    cat_indices = np.arange(num_cats)
+    gender_indices = np.zeros_like(cat_indices)
+    size_indices = np.zeros_like(cat_indices)
+    age_indices = np.zeros_like(cat_indices)
 
-@app.route('/predict', methods=['POST'])
-def predict():
-    data = request.json
-    user_id = np.array([data['user_id']])
-    cat_id = np.array([data['cat_id']])
-    gender = np.array([data['gender']])
-    size = np.array([data['size']])
-    age = np.array([data['age']])
+    # Predictions
+    predictions = model.predict([np.array([user_id] * num_cats).reshape(-1, 1), cat_indices, gender_indices, size_indices, age_indices])
 
-    cat_indices = np.arange(model.layers[6].input_shape[1])  # atau sesuaikan indeks jika diperlukan
+    # Get top recommendations
+    top_cat_indices = np.argsort(predictions.flatten())[::-1][:10]
+    top_cat_ids = encoders['cat_encoder'].inverse_transform(top_cat_indices)  # Correct the variable name
 
-    user_input = np.repeat(np.array([user_id]), len(cat_indices))
-    additional_features = np.array([gender, age, size])
-
-    input_data = [user_input, additional_features, cat_indices]
-
-    predictions = model.predict(input_data)
-    top_cat_indices = np.argsort(predictions.flatten())[::-1][:5]
-
-    # Ubah ini jika Anda menggunakan encoder lain atau ingin format yang berbeda
-    top_cat_ids = top_cat_indices.tolist()
-
-    return jsonify(top_cat_ids)
+    # Return recommendations as JSON response
+    recommendations = [{"cat_id": int(cat_id)} for cat_id in top_cat_ids]
+    return jsonify(recommendations)
 
 if __name__ == '__main__':
     app.run(debug=True)
