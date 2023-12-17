@@ -3,7 +3,7 @@
 
 #### Google Colab 
 - Data Cleaning : https://colab.research.google.com/drive/1strPHDpew4aKYSxD2Jz88Z3fKxLrB4ol
-- Model  : https://colab.research.google.com/drive/1Hw5MXQTNq6ngmg3CuaF1X7gH_koqNNlX#scrollTo=yT8xiN8UFoIl
+- Model  : https://colab.research.google.com/drive/1MzuynNxERu_7ns8A9uFL97yEdOObLlpV?usp=sharing#scrollTo=SIS-nQfnc-Y-
 
 #### 1. Data Gathering
 - [x] Identify data sources for model training.
