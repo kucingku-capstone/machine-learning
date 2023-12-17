@@ -10,12 +10,13 @@ model = tf.keras.models.load_model('E:\machine-learning\model\model elo\CF_model
 @app.route('/predict', methods=['POST'])
 def predict():
     data = request.json
-    user_id = data['user_id']
-    gender = data.get('gender', 'default_gender')
-    age = data.get('age', 'default_age')
-    size = data.get('size', 'default_size')
+    user_id = np.array([data['user_id']])
+    cat_id = np.array([data['cat_id']])
+    gender = np.array([data['gender']])
+    size = np.array([data['size']])
+    age = np.array([data['age']])
 
-    cat_indices = np.arange(model.layers[2].input_dim)  # Sesuaikan dengan jumlah kucing
+    cat_indices = np.arange(model.layers[6].input_shape[1])  # atau sesuaikan indeks jika diperlukan
 
     user_input = np.repeat(np.array([user_id]), len(cat_indices))
     additional_features = np.array([gender, age, size])
@@ -30,5 +31,5 @@ def predict():
 
     return jsonify(top_cat_ids)
 
-if __name__ == 'main':
+if __name__ == '__main__':
     app.run(debug=True)
