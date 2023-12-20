@@ -1,16 +1,16 @@
 cat_id,cat_name,cat_age,cat_gender,cat_size,cat_breed,cat_image,cat_rating,user_id,user_first_name,user_last_name,user_gender
-0,trisie beiji,Adult,female,Large,Local,Trisie Beiji.jpg,1,0,shelia,Mahoney,Male
-1,trisi sukmajaya,Young,female,Large,Local,Trisi Sukmajaya.jpg,4,1,jo,Rivers,Female
-2,uli,Young,female,Large,Local,Uli.jpg,0,2,sheryl,Lowery,Female
-3,chika,Adult,female,Large,Local,Chika.jpg,5,3,whitney,Hooper,Male
-4,cookies,Young,female,Large,Local,Cookies.jpg,4,4,lindsey,Rice,Female
-5,merdeka,Adult,female,Large,Local,Merdeka,0,5,sherry,Caldwell,Male
-6,paper,Adult,female,Large,Local,Paper,0,6,ernest,Hoffman,Male
-7,biru,Young,female,Large,Local,Biru.jpg,0,7,doris,Andersen,Male
-8,sikunyit,Adult,female,Large,Local,Sikunyit.jpg,1,8,cheryl,Mays,Male
-9,kuro fe ui,Young,female,Large,Local,Kuro FE UI.jpg,3,9,harry,Mitchell,Male
-10,aprilio,Adult,male,Large,Local Mix,Aprilio.jpg,5,10,casey,Ayala,Male
-11,loci,Senior,female,Large,Local,Loci.jpg,5,11,sara,Huff,Male
+0,trisie beiji,Adult,female,Large,local,Trisie Beiji.jpg,1,0,shelia,Mahoney,Male
+1,trisi sukmajaya,Young,female,Large,local,Trisi Sukmajaya.jpg,4,1,jo,Rivers,Female
+2,uli,Young,female,Large,local,Uli.jpg,0,2,sheryl,Lowery,Female
+3,chika,Adult,female,Large,local,Chika.jpg,5,3,whitney,Hooper,Male
+4,cookies,Young,female,Large,local,Cookies.jpg,4,4,lindsey,Rice,Female
+5,merdeka,Adult,female,Large,local,Merdeka,0,5,sherry,Caldwell,Male
+6,paper,Adult,female,Large,local,Paper,0,6,ernest,Hoffman,Male
+7,biru,Young,female,Large,local,Biru.jpg,0,7,doris,Andersen,Male
+8,sikunyit,Adult,female,Large,local,Sikunyit.jpg,1,8,cheryl,Mays,Male
+9,kuro fe ui,Young,female,Large,local,Kuro FE UI.jpg,3,9,harry,Mitchell,Male
+10,aprilio,Adult,male,Large,local Mix,Aprilio.jpg,5,10,casey,Ayala,Male
+11,loci,Senior,female,Large,local,Loci.jpg,5,11,sara,Huff,Male
 12,klinika,Young,female,Large,local,Klinika.jpg,1,12,eddie,Barnes,Female
 13,noni,Young,female,Large,persia mix,Klinika.jpg,3,13,ralph,Lowe,Female
 14,mimi,Baby ,female,Small,Local,Mimi.jpg,2,14,priscilla,Davis,Male
