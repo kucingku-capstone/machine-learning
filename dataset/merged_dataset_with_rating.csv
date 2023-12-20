@@ -1,8 +1,8 @@
 cat_id,cat_name,cat_age,cat_gender,cat_size,cat_breed,cat_image,cat_rating,user_id,user_first_name,user_last_name,user_gender
-0,trisie beiji,Adult,Female,Large,Local,Trisie Beiji.jpg,1,0,shelia,Mahoney,Male
-1,trisi sukmajaya,Young,Female,Large,Local,Trisi Sukmajaya.jpg,4,1,jo,Rivers,Female
-2,uli,Young,Female,Large,Local,Uli.jpg,0,2,sheryl,Lowery,Female
-3,chika,Adult,Female,Large,Local,Chika.jpg,5,3,whitney,Hooper,Male
+0,trisie beiji,Adult,female,Large,Local,Trisie Beiji.jpg,1,0,shelia,Mahoney,Male
+1,trisi sukmajaya,Young,female,Large,Local,Trisi Sukmajaya.jpg,4,1,jo,Rivers,Female
+2,uli,Young,female,Large,Local,Uli.jpg,0,2,sheryl,Lowery,Female
+3,chika,Adult,female,Large,Local,Chika.jpg,5,3,whitney,Hooper,Male
 4,cookies,Young,female,Large,Local,Cookies.jpg,4,4,lindsey,Rice,Female
 5,merdeka,Adult,female,Large,Local,Merdeka,0,5,sherry,Caldwell,Male
 6,paper,Adult,female,Large,Local,Paper,0,6,ernest,Hoffman,Male
