@@ -1,10 +1,6 @@
 # KucingKU-Bangkit-Machine-Learning-Team
 # This contains what Machine Learning's team do
 
-#### Google Colab 
-- Data Cleaning : https://colab.research.google.com/drive/1strPHDpew4aKYSxD2Jz88Z3fKxLrB4ol
-- Model  : https://colab.research.google.com/drive/1MzuynNxERu_7ns8A9uFL97yEdOObLlpV?usp=sharing#scrollTo=SIS-nQfnc-Y-
-
 #### 1. Data Gathering
 - [x] Identify data sources for model training.
 - [x] Collect datasets covering various cat breeds.
