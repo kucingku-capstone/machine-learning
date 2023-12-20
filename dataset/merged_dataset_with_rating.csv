@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 cat_id,cat_name,cat_age,cat_gender,cat_size,cat_breed,cat_image,cat_rating,user_id,user_first_name,user_last_name,user_gender,user_age
 0,trisie beiji,Adult,female,Large,Local,Trisie Beiji.jpg,1,0,shelia,Mahoney,Male,68
 1,trisi sukmajaya,Young,female,Large,Local,Trisi Sukmajaya.jpg,4,1,jo,Rivers,Female,37
@@ -40,46 +39,3 @@ cat_id,cat_name,cat_age,cat_gender,cat_size,cat_breed,cat_image,cat_rating,user_
 37,bejo,Adult,male,Large,local,Bejo.jpg,2,37,stefanie,Sherman,Male,19
 38,maisy,Young,female,Large,local,maisy.jpg,4,38,kent,Velez,Male,68
 39,snow,Young,female,medium,local,Snow.jpg,0,39,angela,Huff,Male,64
-=======
-cat_id,cat_name,cat_age,cat_gender,cat_size,cat_breed,cat_image,cat_rating,user_id,user_first_name,user_last_name,user_gender
-0,trisie beiji,Adult,female,Large,local,Trisie Beiji.jpg,1,0,shelia,Mahoney,Male
-1,trisi sukmajaya,Young,female,Large,local,Trisi Sukmajaya.jpg,4,1,jo,Rivers,Female
-2,uli,Young,female,Large,local,Uli.jpg,0,2,sheryl,Lowery,Female
-3,chika,Adult,female,Large,local,Chika.jpg,5,3,whitney,Hooper,Male
-4,cookies,Young,female,Large,local,Cookies.jpg,4,4,lindsey,Rice,Female
-5,merdeka,Adult,female,Large,local,Merdeka,0,5,sherry,Caldwell,Male
-6,paper,Adult,female,Large,local,Paper,0,6,ernest,Hoffman,Male
-7,biru,Young,female,Large,local,Biru.jpg,0,7,doris,Andersen,Male
-8,sikunyit,Adult,female,Large,local,Sikunyit.jpg,1,8,cheryl,Mays,Male
-9,kuro fe ui,Young,female,Large,local,Kuro FE UI.jpg,3,9,harry,Mitchell,Male
-10,aprilio,Adult,male,Large,local Mix,Aprilio.jpg,5,10,casey,Ayala,Male
-11,loci,Senior,female,Large,local,Loci.jpg,5,11,sara,Huff,Male
-12,klinika,Young,female,Large,local,Klinika.jpg,1,12,eddie,Barnes,Female
-13,noni,Young,female,Large,persia mix,Klinika.jpg,3,13,ralph,Lowe,Female
-14,mimi,Baby ,female,Small,Local,Mimi.jpg,2,14,priscilla,Davis,Male
-15,rere,Baby ,female,Small,local,Rere.jpg,3,15,carly,Abbott,Female
-16,ucil,Baby ,male,Small,local,Ucil.JPG,2,16,nicolas,Mckinney,Male
-17,chandra,Young,male,medium,local,Chandra.JPG,2,17,natasha,Macias,Female
-18,odin,Adult,female,medium,local,Odin.jpeg,4,18,courtney,Jenkins,Female
-19,bumi,Young,female,Large,local,Bumi.JPG,2,19,perry,Mcmahon,Female
-20,venus,Baby ,female,small,local,Venus.JPG,4,20,emily,Travis,Male
-21,mars,Baby ,female,small,local,Mars.JPG,3,21,meghan,Hawkins,Male
-22,bulan,Baby ,female,small,local,Bulan.JPG,1,22,ernest,Oconnell,Male
-23,embul ,Baby ,female,Large,local,Embul.JPG,0,23,norman,Walton,Female
-24,beam,Adult,female,Large,local,Beam.JPG,5,24,roger,Sweeney,Female
-25,pangpong,Baby ,female,small,local,Pangpong.JPG,5,25,ethan,Wu,Male
-26,cope,Adult,female,Large,local,Cope.JPG,1,26,catherine,Myers,Male
-27,cipul,Young,male,Large,local,Cipul.JPG,2,27,catherine,Nash,Female
-28,dwi,Young,female,Large,local,Dwi.JPG,2,28,corey,Delgado,Male
-29,titi,Adult,female,Large,local,Titi.jpg,4,29,hunter,Hahn,Female
-30,dodo,Young,female,small,local,Dodo.jpg,5,30,dakota,Gomez,Male
-31,yati,Young,female,Large,local,Yati.jpg,3,31,nathaniel,Clarke,Female
-32,iming,Young,female,Large,local,Iming.jpg,5,32,marco,Reyes,Male
-33,nginden,Adult,female,Large,local,Nginden.jpg,2,33,todd,Weber,Male
-34,bubub,Adult,male,Large,local,Bubub.jpg,1,34,bryan,Vaughn,Male
-35,desi,Young,female,Large,local,Desi.jpg,0,35,adrienne,Lambert,Male
-36,duren,Young,female,Large,local,Duren.jpg,2,36,seth,Hess,Male
-37,bejo,Adult,male,Large,local,Bejo.jpg,2,37,stefanie,Sherman,Male
-38,maisy,Young,female,Large,local,maisy.jpg,4,38,kent,Velez,Male
-39,snow,Young,female,medium,local,Snow.jpg,0,39,angela,Huff,Male
->>>>>>> 5c27fa2b381360f68c43db88c77790f8a5800a7b
