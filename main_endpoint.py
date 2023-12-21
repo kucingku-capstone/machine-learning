@@ -11,7 +11,7 @@ model = load_model("model/h5/Kucingku_model.h5")
 encoders = np.load('cat_encoder.npy', allow_pickle=True).item()
 
 # Load your data (replace with actual data loading code)
-df = pd.read_csv("your_data.csv")
+df = pd.read_csv("dataset/KucingKu_dataset.csv")
 
 # Recommendation function
 def collaborative_filtering_recommendation(model, encoders, user_gender, user_age, cat_gender, cat_age, cat_size, cat_breed, top_n=5, similarity_threshold=0.5):
@@ -32,8 +32,9 @@ def collaborative_filtering_recommendation(model, encoders, user_gender, user_ag
         cat_age_encoded = cat_age_encoder.transform([cat_age])[0]
         cat_breed_encoded = cat_breed_encoder.transform([cat_breed])[0]
     except ValueError as e:
+        print(f"error: {e}")
         # Handle unseen labels (e.g., assign a default value or skip the data point)
-        return default_recommendation()
+        return None
 
     # Make predictions for the user's preferences
     user_preferences = model.predict([
@@ -58,7 +59,14 @@ def collaborative_filtering_recommendation(model, encoders, user_gender, user_ag
 
     # Include diverse recommendations
     diverse_recommendations = get_diverse_recommendations()
+    print("Diverse Recommendations:", diverse_recommendations)
+
+    # Convert numpy.int64 elements to native Python integers
+    recommended_cat_ids = [int(cat_id) for cat_id in recommended_cat_ids]
+    diverse_recommendations = [int(cat_id) for cat_id in diverse_recommendations]
+
     recommended_cat_ids += diverse_recommendations
+    print("Final Recommended Cat IDs:", recommended_cat_ids)
 
     return recommended_cat_ids
 
