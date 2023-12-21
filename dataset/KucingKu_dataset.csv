@@ -1,0 +1,86 @@
+cat_id,cat_name,cat_age,cat_gender,cat_size,cat_breed,cat_image,cat_rating,user_id,user_first_name,user_last_name,user_gender,user_age
+0,trisie beiji,adult,female,large,local,Trisie Beiji.jpg,1,0,shelia,mahoney,male,16
+1,trisi sukmajaya,young,female,large,local,Trisi Sukmajaya.jpg,4,1,jo,rivers,female,17
+2,uli,young,female,large,local,Uli.jpg,0,2,sheryl,lowery,female,18
+3,chika,adult,female,large,local,Chika.jpg,5,3,whitney,hooper,male,19
+4,cookies,young,female,large,local,Cookies.jpg,4,4,lindsey,rice,female,20
+5,merdeka,adult,female,large,local,Merdeka,0,5,sherry,caldwell,male,21
+6,paper,adult,female,large,local,Paper,0,6,ernest,hoffman,male,22
+7,biru,young,female,large,local,Biru.jpg,0,7,doris,andersen,male,23
+8,sikunyit,adult,female,large,local,Sikunyit.jpg,1,8,cheryl,mays,male,24
+9,kuro fe ui,young,female,large,local,Kuro FE UI.jpg,3,9,harry,mitchell,male,25
+10,aprilio,adult,male,large,local mix,Aprilio.jpg,5,10,casey,ayala,male,26
+11,loci,senior,female,large,local,Loci.jpg,5,11,sara,huff,male,27
+12,klinika,young,female,large,local,Klinika.jpg,1,12,eddie,barnes,female,28
+13,noni,young,female,large,persia mix,Klinika.jpg,3,13,ralph,lowe,female,29
+14,mimi,baby,female,small,local,Mimi.jpg,2,14,priscilla,davis,male,30
+15,rere,baby,female,small,local,Rere.jpg,3,15,carly,abbott,female,31
+16,ucil,baby,male,small,local,Ucil.JPG,2,16,nicolas,mckinney,male,32
+17,chandra,young,male,medium,local,Chandra.JPG,2,17,natasha,macias,female,33
+18,odin,adult,female,medium,local,Odin.jpeg,4,18,courtney,jenkins,female,34
+19,bumi,young,female,large,local,Bumi.JPG,2,19,perry,mcmahon,female,35
+20,venus,baby,female,small,local,Venus.JPG,4,20,emily,travis,male,36
+21,mars,baby,female,small,local,Mars.JPG,3,21,meghan,hawkins,male,37
+22,bulan,baby,female,small,local,Bulan.JPG,1,22,ernest,oconnell,male,38
+23,embul ,baby,female,large,local,Embul.JPG,0,23,norman,walton,female,39
+24,beam,adult,female,large,local,Beam.JPG,5,24,roger,sweeney,female,40
+25,pangpong,baby,female,small,local,Pangpong.JPG,5,25,ethan,wu,male,41
+26,cope,adult,female,large,local,Cope.JPG,1,26,catherine,myers,male,42
+27,cipul,young,male,large,local,Cipul.JPG,2,27,catherine,nash,female,43
+28,dwi,young,female,large,local,Dwi.JPG,2,28,corey,delgado,male,44
+29,titi,adult,female,large,local,Titi.jpg,4,29,hunter,hahn,female,45
+30,dodo,young,female,small,local,Dodo.jpg,5,30,dakota,gomez,male,46
+31,yati,young,female,large,local,Yati.jpg,3,31,nathaniel,clarke,female,47
+32,iming,young,female,large,local,Iming.jpg,5,32,marco,reyes,male,48
+33,nginden,adult,female,large,local,Nginden.jpg,2,33,todd,weber,male,49
+34,bubub,adult,male,large,local,Bubub.jpg,1,34,bryan,vaughn,male,50
+35,desi,young,female,large,local,Desi.jpg,0,35,adrienne,lambert,male,51
+36,duren,young,female,large,local,Duren.jpg,2,36,seth,hess,male,52
+37,bejo,adult,male,large,local,Bejo.jpg,2,37,stefanie,sherman,male,53
+38,maisy,young,female,large,local,maisy.jpg,4,38,kent,velez,male,54
+39,snow,young,female,medium,local,Snow.jpg,0,39,angela,huff,male,55
+51,sunny,baby,female,small,persia,Sunny.jpg,4,51,brandon,lee,male,56
+52,charlie,young,male,medium,siamese,Charlie.jpg,3,52,carol,smith,female,57
+53,lily,adult,female,large,persia mix,Lily.jpg,5,53,daniel,johnson,male,58
+54,oscar,baby,male,small,persia,Oscar.jpg,2,54,olivia,williams,female,59
+55,leo,adult,female,large,persia,Leo2.jpg,4,55,kevin,martin,male,60
+56,fluffy,young,male,medium,siamese,Fluffy.jpg,1,56,emma,miller,female,61
+57,shadow,young,male,large,persia mix,Shadow2.jpg,3,58,olivia,moore,female,62
+58,whiskers,adult,female,medium,siamese,Whiskers2.jpg,2,59,ryan,anderson,male,63
+59,bella,baby,female,small,persia,Bella3.jpg,4,60,emily,martin,female,64
+60,snowflake,baby,female,small,persia mix,Snowflake2.jpg,4,61,michael,jackson,male,65
+61,mittens,young,male,large,persia,Mittens2.jpg,3,62,susan,smith,female,66
+62,coco,adult,female,large,persia,Coco2.jpg,4,65,chris,martin,male,67
+63,sparky,young,male,medium,siamese,Sparky2.jpg,1,66,samantha,miller,female,68
+64,lola,baby,female,small,persia,Lola3.jpg,5,67,david,brown,male,69
+65,rocky,young,male,large,persia mix,Rocky7.jpg,3,68,olivia,moore,female,70
+66,peanut,adult,female,medium,siamese,Peanut2.jpg,2,69,ryan,anderson,male,71
+56,cleo,young,female,small,persia,Cleo.jpg,4,56,jacob,brown,male,72
+57,zeus,senior,male,large,persia,Zeus.jpg,3,57,leah,miller,female,73
+58,buddy,young,male,medium,siamese,Buddy.jpg,1,58,emma,smith,female,74
+59,princess,adult,female,medium,siamese,Princess.jpg,5,59,tyler,johnson,male,75
+60,whiskey,baby,male,small,persia mix,Whiskey.jpg,2,60,lucy,williams,female,76
+61,milo,young,male,large,persia,Milo.jpg,4,61,megan,martin,male,77
+62,ziggy,adult,female,medium,siamese,Ziggy.jpg,3,62,aiden,hoffman,male,78
+63,lucky,adult,male,large,persia,Lucky.jpg,2,63,chloe,andersen,male,79
+64,ginger,baby,female,small,persia,Ginger.jpg,1,64,sophie,caldwell,male,80
+65,tiger,adult,male,large,persia mix,Tiger.jpg,5,65,zoey,mitchell,male,81
+66,simba,young,male,medium,siamese,Simba.jpg,4,66,isabella,ayala,male,82
+67,oreo,baby,female,small,persia,Oreo.jpg,3,67,oliver,huff,male,83
+68,patches,adult,male,large,persia,Patches.jpg,2,68,ava,barnes,female,84
+69,nala,young,female,medium,siamese,Nala.jpg,5,69,lucas,lowe,female,85
+70,faiz,baby,male,small,persia,Mittens6.jpg,4,70,sofia,davis,male,86
+71,blacky,baby,male,large,persia,Shadow3.jpg,3,71,ella,abbott,female,87
+72,misty,adult,female,large,persia,Misty.jpg,1,72,luke,mckinney,male,88
+73,angelo,young,male,large,persia mix,Whiskers7.jpg,4,73,audrey,macias,female,89
+73,fadeta,baby,female,small,persia,Fadeta.jpg,4,73,brandon,lee,male,90
+73,rama,young,male,medium,siamese,Rama.jpg,3,73,carol,silva,female,91
+73,irenk,adult,male,large,persia,Irenk.jpg,5,73,daniel,johnson,male,92
+73,melani,baby,female,small,persia,Melani.jpg,2,73,olivia,williams,female,93
+73,anya,adult,female,large,persia mix,Anya.jpg,4,73,chris,martin,male,94
+73,fairuz,young,female,medium,siamese,Fairuz.jpg,1,73,emma,miller,female,95
+73,rex,young,male,large,persia mix,Rex.jpg,3,73,olivia,moore,female,96
+73,fas,adult,female,medium,siamese,Fas.jpg,2,73,ryan,anderson,male,97
+73,aldi,adult,male,large,persia,Aldi.jpg,4,73,emily,martin,female,98
+73,abuy,young,male,large,persia mix,Abuy.jpg,5,73,michael,jackson,male,99
+73,rasyid,adult,male,large,persia,Rasyid.jpg,2,73,susan,smith,female,100
