@@ -1,12 +1,17 @@
-from flask import Flask, request, jsonify, g
+from flask import Flask, request, jsonify
 from tensorflow.keras.models import load_model
 import numpy as np
+import pandas as pd
+import random
 
 app = Flask(__name__)
 
 # Load your collaborative filtering model and encoders
-g.model = load_model("model\h5\Kucingku_model.h5")
-g.encoders = np.load('cat_encoder.npy', allow_pickle=True).item()
+model = load_model("model/h5/Kucingku_model.h5")
+encoders = np.load('cat_encoder.npy', allow_pickle=True).item()
+
+# Load your data (replace with actual data loading code)
+df = pd.read_csv("your_data.csv")
 
 # Recommendation function
 def collaborative_filtering_recommendation(model, encoders, user_gender, user_age, cat_gender, cat_age, cat_size, cat_breed, top_n=5, similarity_threshold=0.5):
@@ -28,7 +33,7 @@ def collaborative_filtering_recommendation(model, encoders, user_gender, user_ag
         cat_breed_encoded = cat_breed_encoder.transform([cat_breed])[0]
     except ValueError as e:
         # Handle unseen labels (e.g., assign a default value or skip the data point)
-        return None
+        return default_recommendation()
 
     # Make predictions for the user's preferences
     user_preferences = model.predict([
@@ -51,7 +56,26 @@ def collaborative_filtering_recommendation(model, encoders, user_gender, user_ag
     # Extract recommended cat IDs from the top users
     recommended_cat_ids = top_users['cat_id'].tolist()
 
+    # Include diverse recommendations
+    diverse_recommendations = get_diverse_recommendations()
+    recommended_cat_ids += diverse_recommendations
+
     return recommended_cat_ids
+
+def get_diverse_recommendations():
+    # Implement logic for diverse recommendations
+    # For example, return random cat IDs or popular cat IDs
+    # In this example, let's return 3 random cat IDs
+    num_diverse_recommendations = 5
+
+    # Ensure diverse recommendations are not duplicates of top recommendations
+    diverse_cat_ids = []
+    while len(diverse_cat_ids) < num_diverse_recommendations:
+        random_cat_id = random.choice(df['cat_id'].unique())
+        if random_cat_id not in diverse_cat_ids:
+            diverse_cat_ids.append(random_cat_id)
+
+    return diverse_cat_ids
 
 # Recommendation endpoint
 @app.route('/recommend', methods=['POST'])
@@ -59,7 +83,14 @@ def recommend():
     try:
         user_inputs = request.json
         recommended_cats = collaborative_filtering_recommendation(
-            g.model, g.encoders, **user_inputs
+            model,
+            encoders,
+            user_inputs["user_gender"],
+            user_inputs["user_age"],
+            user_inputs["cat_gender"],
+            user_inputs["cat_age"],
+            user_inputs["cat_size"],
+            user_inputs["cat_breed"]
         )
         return jsonify({"recommended_cats": recommended_cats})
     except Exception as e:
