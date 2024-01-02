@@ -100,7 +100,7 @@ def recommend():
             user_inputs["cat_size"],
             user_inputs["cat_breed"]
         )
-        return jsonify({"recommended_cats": recommended_cats})
+        return jsonify({"recommended_cats_ids": recommended_cats})
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
